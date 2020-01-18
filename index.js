@@ -48,8 +48,6 @@ class ElasticBeanstalkVersionTagger {
 		return new Promise((resolve, reject) => {
 			this.getApplicationVersions({ versionLabels: [options.versionLabel], single: true })
 				.then(applicationVersion => {
-					console.log(applicationVersion);
-
 					let params = {
 						ResourceArn: applicationVersion.ApplicationVersionArn,
 						TagsToAdd: tags
@@ -107,7 +105,6 @@ class ElasticBeanstalkVersionTagger {
 		return new Promise((resolve, reject) => {
 			this.getApplicationVersions({ versionLabels: [options.versionLabel], single: true })
 				.then(applicationVersion => {
-					console.log('applicationversion', applicationVersion);
 					let params = {
 						ResourceArn: applicationVersion.ApplicationVersionArn,
 					};

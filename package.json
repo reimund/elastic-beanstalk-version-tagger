@@ -1,6 +1,6 @@
 {
   "name": "elastic-beanstalk-version-tagger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Small utility used for reading and writing version tags to Application Versions on Elastic Beanstalk.",
   "main": "index.js",
   "scripts": {
