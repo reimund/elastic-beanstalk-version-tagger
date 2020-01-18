@@ -12,6 +12,7 @@
     "version"
   ],
   "author": "Reimund Järnfors",
+  "repository": "https://github.com/reimund/elastic-beanstalk-version-tagger.git",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.606.0"
