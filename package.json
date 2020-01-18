@@ -1,0 +1,19 @@
+{
+  "name": "elastic-beanstalk-version-tagger",
+  "version": "1.0.0",
+  "description": "Small utility used for reading and writing version tags to Application Versions on Elastic Beanstalk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "elastic",
+    "beanstalk",
+    "version"
+  ],
+  "author": "Reimund Järnfors",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.606.0"
+  }
+}
